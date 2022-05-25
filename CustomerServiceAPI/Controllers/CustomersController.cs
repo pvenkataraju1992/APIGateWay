@@ -16,7 +16,7 @@ namespace CustomerServiceAPI.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Customer1", "Customer2" };
+            return new string[] { "Customer1", "Customer2", "Customer3"};
         }
 
         // GET api/<CustomersController>/5
